@@ -1,0 +1,90 @@
+
+
+CREATE DATABASE BD_KONECTA_PERÚ;
+END
+
+
+USE BD_KONECTA_PERÚ;
+END
+
+--- DIMENSIONES
+
+CREATE TABLE D_PRODUCTO
+(
+	id_producto INTEGER IDENTITY(1,1),
+	nombre_producto VARCHAR(50) NOT NULL,
+	precio DECIMAL NOT NULL,
+	cantidad INTEGER NOT NULL
+	PRIMARY KEY (id_producto)
+)
+
+CREATE TABLE D_VENDEDOR
+(
+	id_vendedor INTEGER IDENTITY(1,1),
+	nombre_vendedor VARCHAR(100) NOT NULL,
+	DNI VARCHAR(8),
+	edad VARCHAR(2),
+	base_vendedor VARCHAR(100),
+        sueldo DECIMAL(5,2),
+	fecha_ingreso DATE,
+	tipo_contrato VARCHAR(50)
+	PRIMARY KEY (id_vendedor)
+)
+
+CREATE TABLE D_CLIENTE
+(
+	id_cliente INTEGER IDENTITY(1,1),
+	nombre_cliente VARCHAR(100) NOT NULL,
+	identificación VARCHAR(20),
+	edad VARCHAR(2),
+	base_cliente VARCHAR(100),
+	tipo_cliente VARCHAR(11),
+	telefono VARCHAR(20),
+	dirección VARCHAR(200)
+	PRIMARY KEY (id_cliente)
+)
+
+CREATE TABLE D_TIEMPO
+(
+	id_tiempo INTEGER IDENTITY(1,1),
+	fecha_contacto DATE,
+	fecha_venta DATE
+	PRIMARY KEY (id_tiempo)
+)
+
+---Tabla de Hechos
+CREATE TABLE D_VENTAS
+(
+	id_producto INT NOT NULL,
+	id_vendedor INT NOT NULL,
+	id_cliente INT NOT NULL,
+	id_tiempo INT NOT NULL,
+	nombre_vendedor VARCHAR(100) NOT NULL,
+        nombre_producto VARCHAR(50) NOT NULL,
+	precio DECIMAL NOT NULL,
+	nombre_cliente VARCHAR(100) NOT NULL,
+	fecha_venta DATE,
+
+
+
+	/* """"" FOREIGN KEY D_PRODUCTO """"" */
+	CONSTRAINT FK_P
+	FOREIGN KEY (id_producto)
+	REFERENCES D_PRODUCTO (id_producto),
+	/* """""""""""""""""""""""""""""""""" */
+	/* """"" FOREIGN KEY D_VENDEDOR """"" */
+	CONSTRAINT FK_V
+	FOREIGN KEY (id_vendedor)
+	REFERENCES D_VENDEDOR (id_vendedor),
+	/* """""""""""""""""""""""""""""""""" */
+	/* """"" FOREIGN KEY D_CLIENTE """"" */
+	CONSTRAINT FK_C
+	FOREIGN KEY (id_cliente)
+	REFERENCES D_CLIENTE (id_cliente),
+	/* """""""""""""""""""""""""""""""""" */
+	/* """"" FOREIGN KEY D_TIEMPO """"" */
+	CONSTRAINT FK_T
+	FOREIGN KEY (id_tiempo)
+	REFERENCES D_TIEMPO (id_tiempo)
+	/* """""""""""""""""""""""""""""""""" */
+)
