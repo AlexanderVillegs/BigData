@@ -1,0 +1,31 @@
+﻿id_producto;precio;nombre_pro;cantidad;id_vendedor;nombre_vendedor;edad;dni;base;sueldo;fecha_ingreso;tipo_contrato;id_tiempo;fecha_contacto;fecha_venta;id_cliente;identificacion;nombre_cliente;edad;base_cliente;tipo_cliente;direccion;telefono
+"SKU45785701;568; LG V50 THINGQ 5G;1;0001;Aldair Garcia;24;75896320; Base porta;1025; 20/07/21;  Determinado;1; 24/08/2021; 24/08/2021;4;71857598;Giampier De La Cruz;20;Base porta; Natural;Jiron Vista Alegre 195,Belaunde, Comas;910386267;"
+SKU45785702;null;null;null;0004; Martha Rurush;32;45789630; Base NC;1025; 14/03/2022; Determinado;12; 21/06/2022; null;12;75852014;Frank Castro;45; Base NC; Natural;null;963250320;
+SKU45785703;null;null;null;0020; Andrew Padilla;25;42036300;Base Reno;1200; 02/08/2018; Indeterminado;5; 15/01/2020; null;10;75410320;Nicole Gutierrez;20; Base Reno; Natural; null;985674201;
+SKU45785704;null;null;null;0013; Josias Padilla;19;75203110; Base NC;1025; 12/06/2021; Determinado;23; 26/10/2021; null;15; null; null; null ; Base NC; null;null;946585523;
+"SKU45785705;0;CHIP POWER 69.90;1;0065;Marcos Albarracin;24;75103020; Base porta;1025; 10/01/2023;  Determinado;7; 15/02/2023; 18/02/2023;30;70175098;Jhordan Balvin;26; Base porta; Natural;Avenida 3 de octubre, Belaunde, Comas;963001233;"
+"SKU45785706;600;Samsung galaxy A20;1;0016;José Campos ;27;75638192;Base porta;1025;27/08/2020;Determinado;10;18/10/2021;null;11;73910203;Franco Herrera;30;Base reno;Natural;calle Jardines 28,Independencia;992738192;"
+SKU45785707;2000;Iphone 14 plus;1;0002;Andres Andrade;30;71930482;null;1025;14/03/2022;Determinado;12;null;8/08/2022;55;76545916;Abimael Sanchez;45;null;null;V.E.S Sector 21;992344221
+SKU45785708;800;Huawei P30;1;0012;Carlos Vargas;28;75849163;null;1025;14/06/2020;Indeterminado;23;29/10/2021;2/11/2021;38;80164973;Luna Matos;45;null;Natural;calle larco;964201120;
+SKU45785709;600;null;1;0005;Daniel Alvites;27;79461345;null;1025;null;Determinado;45;18/04/2022;18/04/2022;24;45826173;null;19;null;Natural;av. grau 826;901237583;
+SKU45785710;1200;Iphone 13;1;0003;Francisco Villegas;25;72104549;null;1200;15/07/2021;Determinado;19;26/03/2022;null;55;67206301;Gabriela Armas;24;null;Natural;S.J.M av. Los Héroes;null;
+SKU45785711;0;CHIP POWER 69.90;1;0008;Henrique Fernández;20;72481916;null;1025;1/01/2023;Determinado;28;1/03/2023;1/03/2023;14;98167291;Samuel Gomez;35;null;Natural;Jirón de la Unión;940790087;
+"SKU45785712;600;Samsung galaxy A20;1;0011;Fernando Galindo;22;75779468;Base NC;1025;null;Indeterminado;16;16/05/2023;22/05/2023;23;45873520;Jack Vertiz;45;null;null;Jr 28 De Julio 148 AYACUCHO, AYACUCHO;926368086;"
+SKU45785713;750;Huawei y6 II;1;0013;Jose Murillo;34;48157346;Base NC;1200;1/06/2020;null;45;5/11/2021;5/11/2021;42;68291673;Samuel Lino;67;null;Natural;Av. Salaverry 801 Jesús María. LIMA;947312350;
+SKU45785714;800;Huawei P30;1;0019;Pablo Martinez;38;79183461; Base NC;1025; 14/03/2022; Indeterminado;38;11/04/2022;null;15;97286430;Albert Suarez;48;null;Natural;Av Independencia Cda 06 Ex Casa Campesin;948752013;
+SKU45785715;0;CHIP MAX 89.90;1;0020; Andrew Padilla;25;42036300;Base Reno;1200; 02/08/2018; Indeterminado;26;21/02/2023;21/03/2023;11;82416826;Franco Herrera;19;null;Jr.Callao 122 1er.Piso Cercado;null;
+SKU45785716;1000;Samsung AUD;1;0006;Pedro Peralta;30;73464525; Base NC;1025;null;null;91;19/09/2022;30/10/2022;25;84672109;Adolfo Paez;35;null;Natural;Jr. Camaná 616 Cercado LIMA;959057890
+"SKU45785717;700;Huawei y6;1;0008;Henrique Fernández;22;76461973; Base NC;null;6/01/2020;Determinado;23;2/03/2022;16/03/2022;23;84973910;Jack Vertiz;45;null;;Natural;Registro Unico de Victimas RUV Los Cedros 209, San Isidro Lima;959237891"
+"SKU45785718;900;Samsung galaxy S10;1;0007;Gean Canales;28;74451552; Base NC;1025;15/10/2021;Determinado;64;null;2/03/2022;30;87692083;null;null;null;Juridico;AV Arenales 1302 Jesús María, LIMA989357892;"
+SKU45785719;800;Huawei P30;1;0006;Frank Balboa;29;76431980; Base NC;1025;6/01/2021; Indeterminado;2;28/11/2021;30/11/2021;6;75852014Frank Castro;46;Base NC;Natural;V.E.S Sector 12;913207893
+SKU45785720;750;Huawei y6 II;1;0001;Aldair Garcia;24;75896320;Base Porta;1025;20/07/21; Determinado;8;7/12/2022;7/12/2022;42;45973052;Michael Borja;50;Base Porta;Natural;null;900057894
+"SKU45785721;890;Oppo Reno 7;null;0001;Aldair Garcia;24;75896320;Base Porta;1025;20/07/2021;Determinado;16;7/08/2022;null;12;67019823;Sebastian Mateo;22;Base Porta;Natural;Jr 28 De Julio 537 A, Cercado AYACUCHO, AYACUCHO;959057005"
+"SKU45785722;900;Samsung galaxy S10;1;0016;José Campos ;24;73468512;null;1025;15/01/2021;Determinado;2;9/12/2021;16/12/2021;84;10548738461;Ferreteria ""FYJ"";null;null;Juridico;AV Arenales 1302 Jesús María, LIMA;null"
+SKU45785723;900;Samsung galaxy S10;1;0018;Marcos Torres;20;45796431;null;1025; 14/03/2022;Determinado;64;30/11/2022;30/11/2022;16;72615831;null;45;null;Natural;Av. Paseo de la República. Palacio de Justicia Cercado LIMA;925290754;
+SKU45785724;3500;Iphone 12;null;0023;Juan Farias ;23;46185270; Base Reno;null;1/05/2021; Indeterminado;84;15/05/2021;null;7;78453927;Javier Mallqui;62;Base Reno;Natural;JR San Martin 475 Cercado;975790753
+SKU45785725;600;CoolBox GMX;1;0027;Adolfo Suarez;34;49236852; Base Reno;1025;15/01/2020; Indeterminado;3;23/01/2023;29/01/2023;24;75469283;Campos Gabriel;39;null;Natural;Jr Grau 8va Cdra;924709753
+SKU45785726;700;CoolBox 2dG;1;0003;Francisco Villegas;33;75481962; Base Reno;1025;null;Determinado;65;5/08/2022;5/08/2022;26;45973052;Michael;64;Base Reno;Natural;Portal Independencia 57;952468087
+SKU45785727;4600;Iphone 13 Pro Max;1;0015;Hernan Barcos;30;79184253;null;1200;15/01/2022; Indeterminado;68;21/03/2022;22/03/2022;29;68039128;Manuela Bandan;null;null;Natural;Plaza 30 de Agosto s/n Urb. Corpac San Isidro LIMA;null
+SKU45785728;900;Samsung galaxy S10;1;0020; Andrew Padilla;25;42036300;Base Reno;1200; 02/08/2018; Indeterminado;43;30/05/2021;3/05/2023;12;8868684;null;26;Base Reno;Natural;V.E.S Sector 1;935754345
+SKU45785729;900;Xiaomi 12;null;0001;Aldair Garcia;24;75896320; Base porta;1025; 20/07/21;  Determinado;29;19/05/2023;22/05/2023;2;98686431;Andres Hernandez;24;Base Porta;Natural;null;996958479
+SKU45785730;800;Huawei P30;1;0009;Gabriel Sanchez;33;76134059; Base Reno;1200;2/10/2022;Determinado;2;null;19/05/2023;30;70982678;null;56;Base Reno;Natural;Plaza 30 de Agosto s/n Urb. Corpac;995874123
